@@ -1,0 +1,159 @@
+ body {
+     background-color: lightblue;
+ }
+
+ table {
+     border: 3px solid white;
+     padding: 10px;
+     margin-top: 10%;
+     font-size: 25px;
+ }
+
+ th {
+     padding-bottom: 1%;
+     width: auto;
+ }
+
+ td {
+     text-align: center;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ p {
+     text-align: center;
+ }
+
+ .task {
+     text-align: left;
+ }
+
+ .top {
+     height: auto;
+     width: 100%;
+ }
+
+ .top:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ #update {
+     margin-top: 20%;
+ }
+
+ #listK1 {
+     float: left;
+     width: 10%;
+ }
+
+ #listK2 {
+     float: left;
+     width: 10%;
+ }
+
+ #listT {
+     float: left;
+     width: 50%;
+ }
+
+ #listT:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ #subDiv {
+     width: 20% border: 3px solid white;
+ }
+
+ .bottom {
+     height: 50%;
+     width: 100%;
+ }
+
+ #one {
+     float: left;
+     width: 50%;
+     box-shadow: 0 0 5px #fff inset;
+     height: 100%;
+ }
+
+ #two {
+     float: left;
+     width: 25%;
+     height: 100%;
+ }
+
+ #three {
+     float: left;
+     width: 25%;
+     height: 100%;
+ }
+
+ #four,
+ #five {
+     float: left;
+     width: 50%;
+     height: 50vh;
+ }
+
+
+ ul {
+     padding-left: 0px;
+     list-style-type: none;
+ }
+
+
+ #sbDishes {
+     padding-left: 10%;
+     float: left;
+     width: 40%;
+ }
+
+ #sbDishesS {
+     padding-left: 0%;
+     list-style-type: none;
+     float: left;
+     width: 10%;
+ }
+
+ #sbTrash {
+     padding-left: 10%;
+     float: left;
+     width: 40%;
+ }
+
+ #sbTrashS {
+     padding-left: 0%;
+     list-style-type: none;
+     float: left;
+     width: 10%;
+ }
+
+ .scroll {
+     height: 100%;
+     overflow-y: scroll;
+ }
+
+ .titleSB {
+     position: fixed;
+ }
+
+ .bottom .top {
+
+ }
+
+ .bottom .top h2 {
+     float: left;
+     width: 50%;
+ }
+
+#bt:after {
+     content: "";
+     display: table;
+     clear: both;
+ }

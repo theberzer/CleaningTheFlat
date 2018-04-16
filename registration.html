@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>B3 Fresh Registration</title>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBJ1Bpa5jFdG6R2gQPRXIWwFDBG8op4HxU",
+        authDomain: "keep-b3-fresh.firebaseapp.com",
+        databaseURL: "https://keep-b3-fresh.firebaseio.com",
+        projectId: "keep-b3-fresh",
+        storageBucket: "keep-b3-fresh.appspot.com",
+        messagingSenderId: "635499308082"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="scripts/registration.js"></script>
+</head>
+
+<body>
+    <input type="text" id="name">
+    <input type="text" id="userName">
+    <input type="text" id="kitchen">
+    <button id="register">Register!</button>
+</body>
+
+</html>

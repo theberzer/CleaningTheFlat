@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Keeping B3 Clean</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBJ1Bpa5jFdG6R2gQPRXIWwFDBG8op4HxU",
+        authDomain: "keep-b3-fresh.firebaseapp.com",
+        databaseURL: "https://keep-b3-fresh.firebaseio.com",
+        projectId: "keep-b3-fresh",
+        storageBucket: "keep-b3-fresh.appspot.com",
+        messagingSenderId: "635499308082"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="scripts/b3clean.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <h1 id="h1">Week </h1>
+        <div id="one">
+            <ul id="listK1"></ul>
+            <ul id="listK2"></ul>
+            <ul id="listT"></ul>
+            <br>
+            <br>
+            <br>
+            <div id="subDiv">
+                <input id="userName" placeholder="User Code" />
+                <button id="userNameBtn">Good Job!</button>
+                <br>
+                <input type="radio" name="gender" id="dishes" value="dishes"> Dishes</input>
+                <input type="radio" name="gender" id="trash" value="trash"> Trash</input>
+                <p id="update">This list is updated every monday at 00:00, will confirm next week</p>
+            </div>
+        </div>
+        <div id="two" class="scroll">
+            <h2>Dishes Scoreboard</h2>
+            <ol id="sbDishes"></ol>
+            <ol id="sbDishesS"></ol>
+        </div>
+        <div id="three" class="scroll">
+            <h2>Trash Scoreboard</h2>
+            <ol id="sbTrash"></ol>
+            <ul id="sbTrashS"></ul>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="bottom">
+        <div id="bt" class="top">
+            <div class="titleLog">
+                <h2>Dishes</h2>
+                <h2>Trash</h2>
+            </div>
+        </div>
+        <div class="bottom">
+            <div id="four" class="scroll">
+                <ul id="listDishes"></ul>
+            </div>
+            <div id="five" class="scroll">
+                <ul id="listTrash"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
